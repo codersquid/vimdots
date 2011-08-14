@@ -1,1 +1,7 @@
 vim files
+
+experimenting with vim pathogen and other bundles. works on my macbook air,
+with vim compiled from src with +python plus this, that, and the other rather
+than the stock vim.
+
+yet to try it out in all of my environments. eventually.

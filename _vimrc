@@ -1,8 +1,20 @@
 " .vimrc
 " cadged from David P Thomas, 02.10.2006 with additional changes by many
-"
 "------------------------------------------------------------------------------
-" Environment
+"
+" Vim Scripts
+" -----------
+" ack
+" bufexplorer
+" ctags
+" fugitive
+" nerdcommenter
+" nerdtree
+" proto
+" pyflakes-vim
+" snipmate
+" stringtemplate
+" taglist
 "------------------------------------------------------------------------------
 
 " pathogen plugin management
@@ -10,54 +22,39 @@
 filetype off
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
-
 " turn filetype detection back on
 filetype plugin indent on
 
-
-" height of command-line on bottom
 set cmdheight=2
-
-" don't behave like Vi
 set nocompatible
 " Minimal number of screen lines to keep above and below the cursor
 set scrolloff=3
-" Number of spaces to use for each step of (auto)indent
 set shiftwidth=4
-" Number of spaces that a <Tab> in the file counts for
 set tabstop=4
 " Show the line and column number of the cursor position
 set ruler
-" Title of the window will be set to the value of 'Vim - <filename>'
 set title
 " Don't wrap lines
 set wrap
 " characters to show before wrapped lines
 set showbreak=<<>>
-" Syntax highlighting
 syntax on
-" expand tabs to spaces
 set expandtab
-" turn off error bells
 set noerrorbells
 " set visual bells to have no beep or flash
 set vb t_vb=
-" show mode (Insert, Replace, Visual)
 set showmode
 " Characters to show in list mode
 " set listchars=tab:»·,trail:·,eol:^,extends:>,precedes:<
 set listchars=eol:^,extends:>,precedes:<
 " set width of text line (max 80)
 "set textwidth=80
-" show line numbers
 set number
-" max number of undo levels
 set undolevels=1000
 " number of characters to be typed before swap file written to
 set updatecount=100
 
-" take some settings from Frank
-autocmd FileType ant,xml,html,js,css,xsd set tabstop=2 " Spacing 2 in xml land
+autocmd FileType ant,xml,html,js,css,xsd set tabstop=2
 autocmd FileType ant,xml,html,js,css,xsd set shiftwidth=2
 
 autocmd BufNewFile,BufRead *.bsh setf java
@@ -94,15 +91,12 @@ autocmd WinEnter * hi StatusLineNC ctermbg=LightGray ctermfg=Black
 " Searching
 "------------------------------------------------------------------------------
 
-" show matched pattern incrementally
 set incsearch
 " highlight all matches of previous search pattern
 set hlsearch
 " Show matching brackets
 set showmatch
-" searches wrap around end of file
 set wrapscan
-
 
 "------------------------------------------------------------------------------
 " Misc
@@ -131,7 +125,8 @@ let g:ctags_statusline=1
 let g:ctags_title=1
 let g:ctags_regenerate=0
 
-set colorcolumn=79
+" I bet this will get annoying but I'm playing around with it
+set colorcolumn=79,120
 
 highlight folded ctermfg=DarkGrey ctermbg=none cterm=underline term=none
 highlight colorcolumn ctermbg=DarkBlue
