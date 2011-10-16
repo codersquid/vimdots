@@ -125,6 +125,9 @@ let g:ctags_statusline=1
 let g:ctags_title=1
 let g:ctags_regenerate=0
 
+let g:notes_directory = '~/Documents/notes'
+let g:notes_suffix = '.txt'
+
 " I bet this will get annoying but I'm playing around with it
 set colorcolumn=79,120
 
