@@ -18,10 +18,9 @@
 "------------------------------------------------------------------------------
 
 " pathogen plugin management
-" filetype needs to be off when loading pathogen
 filetype off
-call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
+call pathogen#runtime_append_all_bundles()
 " turn filetype detection back on
 filetype plugin indent on
 

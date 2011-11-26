@@ -5,3 +5,8 @@ with vim compiled from src with +python plus this, that, and the other rather
 than the stock vim.
 
 yet to try it out in all of my environments. eventually.
+
+experimenting with using submodules. when cloning this, don't forget to call
+
+git submodule init
+git submodule update
