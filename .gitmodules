@@ -22,3 +22,6 @@
 	path = bundle/vim-surround
 	url = git://github.com/tpope/vim-surround.git
     ignore = dirty
+[submodule "bundle/xmledit"]
+	path = bundle/xmledit
+	url = https://github.com/sukima/xmledit.git
