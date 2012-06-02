@@ -124,6 +124,9 @@ let g:ctags_statusline=1
 let g:ctags_title=1
 let g:ctags_regenerate=0
 
+let Tlist_Show_One_File=1
+let Tlist_Use_SingleClick=1
+
 let g:notes_directory = '~/Documents/notes'
 let g:notes_suffix = '.txt'
 
