@@ -1,3 +1,4 @@
 set background=dark
-colorscheme koehler
+"colorscheme koehler
+colorscheme solarized
 highlight Folded guibg=NONE guifg=DarkGrey

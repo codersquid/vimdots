@@ -15,6 +15,7 @@
 " snipmate
 " stringtemplate
 " taglist
+" solarized
 "------------------------------------------------------------------------------
 
 " pathogen plugin management
