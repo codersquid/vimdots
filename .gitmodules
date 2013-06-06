@@ -28,3 +28,9 @@
 [submodule "bundle/vim-colors-solarized"]
 	path = bundle/vim-colors-solarized
 	url = git://github.com/altercation/vim-colors-solarized.git
+[submodule "bundle/vim-markdown"]
+	path = bundle/vim-markdown
+	url = git://github.com/tpope/vim-markdown.git
+[submodule "bundle/mediawiki"]
+	path = bundle/mediawiki
+	url = git://github.com/chikamichi/mediawiki.vim.git

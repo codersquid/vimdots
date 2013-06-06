@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
 let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/Users/codersquid/vimdots/.git'
-let g:netrw_dirhist_2='/Users/codersquid/dev/app4good/src'
-let g:netrw_dirhist_3='/Users/codersquid/dev/app4good'
+let g:netrw_dirhist_1='/Users/codersquid/rmc/wiki.stodden.net'
+let g:netrw_dirhist_2='/Users/codersquid/dev/codersquid.github.io/content'
+let g:netrw_dirhist_3='/Users/codersquid/rmc/todo'

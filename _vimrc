@@ -16,6 +16,8 @@
 " stringtemplate
 " taglist
 " solarized
+" mediawiki
+" markdown
 "------------------------------------------------------------------------------
 
 " pathogen plugin management
@@ -61,6 +63,11 @@ autocmd BufNewFile,BufRead *.bsh setf java
 autocmd BufRead,BufNewFile *.proto setf proto
 autocmd BufRead,BufNewFile *.st setf stringtemplate
 autocmd BufRead,BufNewFile *.gradle setf groovy
+autocmd BufRead,BufNewFile *.mw setf mediawiki
+" Alternatively, the command :setf mediawiki
+" will temporarily set the syntax for the current file.
+" this is the only way I know how to have mediawiki
+" mode when using the firefox It's all text plugin.
 
 " When editing a file, always jump to the last known cursor position.
 " Don't do it when the position is invalid or when inside an event handler
