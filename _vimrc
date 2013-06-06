@@ -25,6 +25,9 @@ call pathogen#runtime_append_all_bundles()
 " turn filetype detection back on
 filetype plugin indent on
 
+" solarized terminal colors option
+set t_Co=16
+
 set cmdheight=2
 set nocompatible
 " Minimal number of screen lines to keep above and below the cursor
@@ -136,3 +139,12 @@ let g:notes_suffix = '.txt'
 
 highlight folded ctermfg=DarkGrey ctermbg=none cterm=underline term=none
 highlight colorcolumn ctermbg=DarkBlue
+
+" solarized dark
+set background=dark
+colorscheme solarized
+
+" solarized light
+"set background=light
+"colorscheme solarized
+
