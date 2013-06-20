@@ -148,8 +148,8 @@ highlight folded ctermfg=DarkGrey ctermbg=none cterm=underline term=none
 highlight colorcolumn ctermbg=DarkBlue
 
 " solarized dark
-set background=dark
-colorscheme solarized
+"set background=dark
+"colorscheme solarized
 
 " solarized light
 "set background=light
