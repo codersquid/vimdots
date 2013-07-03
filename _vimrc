@@ -67,6 +67,7 @@ autocmd BufRead,BufNewFile *.proto setf proto
 autocmd BufRead,BufNewFile *.st setf stringtemplate
 autocmd BufRead,BufNewFile *.gradle setf groovy
 autocmd BufRead,BufNewFile *.mw setf mediawiki
+autocmd BufRead,BufNewFile *.mediawiki setf mediawiki
 " Alternatively, the command :setf mediawiki
 " will temporarily set the syntax for the current file.
 " this is the only way I know how to have mediawiki
@@ -138,7 +139,7 @@ let g:ctags_regenerate=0
 let Tlist_Show_One_File=1
 let Tlist_Use_SingleClick=1
 
-let g:notes_directory = '~/Documents/notes'
+let g:notes_directory = '~/SpiderOak Hive/notetoself'
 let g:notes_suffix = '.txt'
 
 " I bet this will get annoying but I'm playing around with it
@@ -148,8 +149,8 @@ highlight folded ctermfg=DarkGrey ctermbg=none cterm=underline term=none
 highlight colorcolumn ctermbg=DarkBlue
 
 " solarized dark
-set background=dark
-colorscheme solarized
+"set background=dark
+"colorscheme solarized
 
 " solarized light
 "set background=light
