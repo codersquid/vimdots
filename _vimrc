@@ -139,7 +139,7 @@ let g:ctags_regenerate=0
 let Tlist_Show_One_File=1
 let Tlist_Use_SingleClick=1
 
-let g:notes_directory = '~/SpiderOak Hive/notetoself'
+let g:notes_directory = '~/notetoself'
 let g:notes_suffix = '.txt'
 
 " I bet this will get annoying but I'm playing around with it
