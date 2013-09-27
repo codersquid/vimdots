@@ -1,12 +1,14 @@
 vim files
 
-experimenting with vim pathogen and other bundles. works on my macbook air,
-with vim compiled from src with +python plus this, that, and the other rather
-than the stock vim.
+experimenting with vim pathogen and other bundles.  with vim compiled from
+src with +python plus this, that, and the other rather than the stock vim.
 
-yet to try it out in all of my environments. eventually.
-
-experimenting with using submodules. when cloning this, don't forget to call
+when cloning this, don't forget to call
 
 git submodule init
 git submodule update
+
+to add submodules
+
+cd bundle
+git submodule add foo

@@ -34,3 +34,6 @@
 [submodule "bundle/mediawiki"]
 	path = bundle/mediawiki
 	url = git://github.com/chikamichi/mediawiki.vim.git
+[submodule "bundle/python-mode"]
+	path = bundle/python-mode
+	url = git://github.com/klen/python-mode.git
