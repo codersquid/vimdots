@@ -155,4 +155,3 @@ highlight colorcolumn ctermbg=DarkBlue
 " solarized light
 "set background=light
 "colorscheme solarized
-
