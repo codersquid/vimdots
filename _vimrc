@@ -143,7 +143,7 @@ let g:notes_directory = '~/.notes'
 let g:notes_suffix = '.txt'
 
 " I bet this will get annoying but I'm playing around with it
-"set colorcolumn=79,120
+set colorcolumn=120
 
 highlight folded ctermfg=DarkGrey ctermbg=none cterm=underline term=none
 highlight colorcolumn ctermbg=DarkBlue
