@@ -59,8 +59,8 @@ set undolevels=1000
 " number of characters to be typed before swap file written to
 set updatecount=100
 
-autocmd FileType ant,xml,html,js,css,xsd set tabstop=2
-autocmd FileType ant,xml,html,js,css,xsd set shiftwidth=2
+autocmd FileType ant,xml,html,js,css,xsd,tex set tabstop=2
+autocmd FileType ant,xml,html,js,css,xsd,tex set shiftwidth=2
 
 autocmd BufNewFile,BufRead *.bsh setf java
 autocmd BufRead,BufNewFile *.proto setf proto
