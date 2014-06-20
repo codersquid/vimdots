@@ -18,6 +18,8 @@
 " solarized
 " mediawiki
 " markdown
+" vim-ansible-yaml
+" vim-python-pep8-indent
 "------------------------------------------------------------------------------
 
 " pathogen plugin management
