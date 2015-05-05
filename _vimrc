@@ -140,12 +140,13 @@ let g:ctags_regenerate=0
 
 let Tlist_Show_One_File=1
 let Tlist_Use_SingleClick=1
+nmap ,t :TlistToggle<cr>
 
 let g:notes_directory = '~/.notes'
 let g:notes_suffix = '.txt'
 
 " I bet this will get annoying but I'm playing around with it
-set colorcolumn=120
+set colorcolumn=80,120
 
 highlight folded ctermfg=DarkGrey ctermbg=none cterm=underline term=none
 highlight colorcolumn ctermbg=DarkBlue
