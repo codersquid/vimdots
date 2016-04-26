@@ -44,3 +44,6 @@
 	path = bundle/vim-ansible-yaml
     url = git://github.com/chase/vim-ansible-yaml.git
 
+[submodule "bundle/vim-flake8"]
+	path = bundle/vim-flake8
+	url = https://github.com/nvie/vim-flake8.git
