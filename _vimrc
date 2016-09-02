@@ -21,6 +21,7 @@
 " vim-ansible-yaml
 " vim-flake8
 " vim-python-pep8-indent
+" vim-go
 "------------------------------------------------------------------------------
 
 " pathogen plugin management
@@ -112,6 +113,14 @@ set hlsearch
 set showmatch
 set wrapscan
 
+if executable('ag')
+    let g:ackprg = 'ag --vimgrep'
+endif
+cnoreabbrev ag Ack!
+nmap ,a :ag<Space>
+
+
+
 "------------------------------------------------------------------------------
 " Misc
 "------------------------------------------------------------------------------
@@ -132,16 +141,19 @@ let NERDTreeShowHidden=1
 let NERDTreeAutoCenter=1
 nmap ,n :NERDTreeToggle<CR>
 
-" import class under cursor
-nmap ,i :JavaImport<cr>
+" vim-go
+let g:go_fmt_command = "goimports"
+au FileType go nmap ,r <Plug>(go-run)
+au FileType go nmap ,b <Plug>(go-build)
+au FileType go nmap ,i <Plug>(go-install)
+au FileType go nmap ,gt <Plug>(go-test)
+au FileType go nmap ,ds <Plug>(go-def-split)
 
 let g:ctags_statusline=1
 let g:ctags_title=1
 let g:ctags_regenerate=0
 
-let Tlist_Show_One_File=1
-let Tlist_Use_SingleClick=1
-nmap ,t :TlistToggle<cr>
+nmap ,t :TagbarToggle<cr>
 
 nmap ,p8 :call Flake8()<cr>
 
@@ -149,6 +161,8 @@ nmap ,p8 :call Flake8()<cr>
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
+
+let g:neocomplete#enable_at_startup = 1
 
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 2
