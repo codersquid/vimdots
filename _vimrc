@@ -8,20 +8,22 @@
 " bufexplorer
 " ctags
 " fugitive
+" editorconfig-vim
+" markdown
+" mediawiki
 " nerdcommenter
 " nerdtree
 " proto
 " snipmate
+" solarized
 " stringtemplate
 " syntastic
 " taglist
-" solarized
-" mediawiki
-" markdown
 " vim-ansible-yaml
 " vim-flake8
-" vim-python-pep8-indent
 " vim-go
+" vim-isort
+" vim-python-pep8-indent
 "------------------------------------------------------------------------------
 
 " pathogen plugin management
@@ -172,6 +174,8 @@ let g:syntastic_python_flake8_args='--ignore=E225,E401,E501'
 
 let g:notes_directory = '~/.notes'
 let g:notes_suffix = '.txt'
+
+let g:EditorConfig_exclude_patterns = ['fugitive://.*', 'scp://.*']
 
 " I bet this will get annoying but I'm playing around with it
 set colorcolumn=80,120
