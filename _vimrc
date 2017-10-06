@@ -33,7 +33,7 @@ call pathogen#runtime_append_all_bundles()
 " turn filetype detection back on
 filetype plugin indent on
 
-color afterglow
+"color afterglow
 
 " solarized terminal colors option
 "set t_Co=16
