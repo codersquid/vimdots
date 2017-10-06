@@ -33,8 +33,10 @@ call pathogen#runtime_append_all_bundles()
 " turn filetype detection back on
 filetype plugin indent on
 
+color afterglow
+
 " solarized terminal colors option
-set t_Co=16
+"set t_Co=16
 
 set cmdheight=2
 set nocompatible
@@ -181,7 +183,8 @@ let g:EditorConfig_exclude_patterns = ['fugitive://.*', 'scp://.*']
 set colorcolumn=80,120
 
 highlight folded ctermfg=DarkGrey ctermbg=none cterm=underline term=none
-highlight colorcolumn ctermbg=DarkBlue
+"highlight colorcolumn ctermbg=DarkBlue
+highlight colorcolumn ctermbg=0 guibg=lightgrey
 
 " solarized dark
 "set background=dark

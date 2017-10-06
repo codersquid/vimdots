@@ -65,3 +65,9 @@
 [submodule "bundle/vim-isort"]
 	path = bundle/vim-isort
 	url = https://github.com/fisadev/vim-isort.git
+[submodule "bundle/dracula-theme"]
+	path = bundle/dracula-theme
+	url = git@github.com:dracula/vim.git
+[submodule "bundle/awesome-vim-colorschemes"]
+	path = bundle/awesome-vim-colorschemes
+	url = https://github.com/rafi/awesome-vim-colorschemes.git
