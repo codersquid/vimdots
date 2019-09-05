@@ -102,9 +102,6 @@ set equalalways
 set winheight=3
 set winminheight=3
 
-" set color of window title when moving to new window
-autocmd WinEnter * hi StatusLine ctermbg=LightBlue ctermfg=White
-autocmd WinEnter * hi StatusLineNC ctermbg=LightGray ctermfg=Black
 
 "------------------------------------------------------------------------------
 " Searching
@@ -136,6 +133,11 @@ endif
 
 set statusline=%F%m%r%h%w\ [POS=%04l,%04v][%p%%]\ [LEN=%L]
 set laststatus=2 " always show the status line
+
+hi StatusLine ctermbg=LightGray ctermfg=Black
+" set color of window title when moving to new window
+"autocmd WinEnter * hi StatusLine ctermbg=LightBlue ctermfg=White
+"autocmd WinEnter * hi StatusLineNC ctermbg=LightGray ctermfg=Black
 
 let java_highlight_all=1
 let java_highlight_functions="style"
